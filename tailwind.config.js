@@ -13,6 +13,12 @@ module.exports = {
         "theme-light": "var(--theme-light)",
         "theme-yellow": "var(--theme-yellow)",
       },
+      height: {
+        "main-height-media": "calc(100vh - 5rem)",
+      },
+      inset: {
+        "main-height-media": "calc(100vh - 5rem)",
+      },
     },
   },
   plugins: [],

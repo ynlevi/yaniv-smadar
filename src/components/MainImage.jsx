@@ -26,7 +26,7 @@ function MainImage() {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="absolute inset-0 w-full h-screen z-0 lg:relative">
+    <div className="relative inset-0 w-full h-screen z-0">
       <motion.img
         ref={scope}
         src={images[imageIndex]}
@@ -46,7 +46,7 @@ function MainImage() {
             Smadar
           </h1>
           <h2 className="text-xl text-theme-yellow font-semibold tracking-wider mt-1 lg:text-2xl">
-            live in Israel, feel in America.
+            חיי בישראל, תרגיש באמריקה.
           </h2>
         </div>
       </div>
@@ -56,9 +56,7 @@ function MainImage() {
 export default MainImage;
 
 const images = [
-  "https://www.yanivsite.com/wp-content/uploads/2023/06/mg_9067-copy_optimized-scaled-1.jpg",
-  "https://www.yanivsite.com/wp-content/uploads/2023/06/mg_3922-copy_optimized-scaled-1.jpg",
-  "https://www.yanivsite.com/wp-content/uploads/2023/06/mg_9586_optimized-scaled-1.jpg",
-  "https://www.yanivsite.com/wp-content/uploads/2023/06/image-45_optimized.1-scaled-1-2048x1366.jpg",
-  "https://www.yanivsite.com/wp-content/uploads/2023/06/GR01636-scaled-1.jpg",
+  "https://images.pexels.com/photos/19050701/pexels-photo-19050701/free-photo-of-large-windows-in-living-room.jpeg",
+  "https://images.pexels.com/photos/6035357/pexels-photo-6035357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 ];
